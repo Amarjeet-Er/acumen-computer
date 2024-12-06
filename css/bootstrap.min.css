@@ -4118,14 +4118,15 @@ fieldset:disabled .btn {
 .dropdown-item {
     display: block;
     width: 100%;
-    padding: .25rem 1rem;
+    padding: 0.50rem 1rem;
     clear: both;
     font-weight: 400;
     color: #212529;
     text-align: inherit;
     white-space: nowrap;
     background-color: rgba(0, 0, 0, 0);
-    border: 0
+    font-size: 12px;
+    border-bottom: 1px solid lightgray;
 }
 
 .dropdown-item:hover,
@@ -4149,7 +4150,11 @@ fieldset:disabled .btn {
 }
 
 .dropdown-menu.show {
-    display: block
+    display: block;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 5px;
+    padding: 0;
 }
 
 .dropdown-header {

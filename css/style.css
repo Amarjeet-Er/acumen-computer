@@ -243,9 +243,10 @@
         transform: rotateX(-75deg);
         transform-origin: 0% 0%;
         border: 0;
-        border-radius: 10px;
+        border-radius: 0px;
         transition: .5s;
         opacity: 0;
+        padding: 0;
     }
 
     .navbar .nav-item:hover .dropdown-menu {
